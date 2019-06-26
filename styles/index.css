@@ -67,10 +67,10 @@ strong {
 }
 
 #chat-content {
-    margin-right: 20px;
     height: 50vh;
     padding: 8px;
     font-size: 0.875em;
+    overflow: auto;
 }
 
 #call-out {
@@ -88,9 +88,11 @@ strong {
     border: none;
     border-radius: 8px;
     width: 100%;
-    
 }
 
 a.video-link {
     color: #2aabe2;
+}
+p {
+    margin: 8px;
 }
