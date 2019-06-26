@@ -87,6 +87,8 @@ strong {
     height: 2em;
     border: none;
     border-radius: 8px;
+    width: 100%;
+    
 }
 
 a.video-link {
