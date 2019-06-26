@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevMountain Clone</title>
-    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/index.css" />
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img id="logo" src="./img/logo.png" />
-        <nav>
-            <a href="#">Courses</a>
-            <a href="#">Student Housing</a>
-            <a href="#">Locations</a>
-            <a href="#">Blog</a>
-            <a href="#">Events</a>
-            <a href="#">Contact</a>
-            <a href="#">Log In</a>
-        </nav>
+      <img id="logo" src="./img/logo.png" />
+      <nav>
+        <a href="#">Courses</a>
+        <a href="#">Student Housing</a>
+        <a href="#">Locations</a>
+        <a href="#">Blog</a>
+        <a href="#">Events</a>
+        <a href="#">Contact</a>
+        <a href="#">Log In</a>
+      </nav>
     </header>
     <section id="call-out">
-        <h1>Start a Career You're Proud of</h1>
-        <p>On campus courses in development design, and software testing.</p>
-        <a href="#" class="video-link">Watch our video</a>
+      <h1>Start a Career You're Proud of</h1>
+      <p>On campus courses in development design, and software testing.</p>
+      <a href="#" class="video-link">Watch our video</a>
     </section>
     <main>
-        <h2>What is DevMountain?</h2>
+      <h2>What is DevMountain?</h2>
     </main>
-    <aside id="chat-icon">
-    📱
+    <aside id="chat-container">
+      <div id="chat-content">
+        <p><strong>Bonnie:</strong> Hi there, have a question? Text us here!</p>
+      </div>
+      <form id="chat-form">
+        <input id="chat-input" placeholder="Enter a message." />
+      </form>
     </aside>
-</body>
+    <aside id="chat-icon">
+      📱
+    </aside>
+  </body>
 </html>

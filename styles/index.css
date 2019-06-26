@@ -3,7 +3,14 @@ body {
     color: white;
 }
 header {
+    padding: 16px;
     background-color: #252525;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 0.875em;
 }
 
 a, a:visited {
@@ -11,11 +18,20 @@ a, a:visited {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 2em;
+}
+
 h2 {
     color: #2aabe2;
     font-size: 30px;
     margin-top: 1.5em;
 }
+
+strong {
+    font-weight: bold;
+}
+
 
 #logo {
     max-height: 5vh;
@@ -26,12 +42,51 @@ h2 {
     background: rgb(255, 153, 31);
     width: 60px;
     height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 0 rgb(150, 150, 150);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+}
+
+#chat-container {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    color: black;
+    max-width: 20vw;
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-content {
+    margin-right: 20px;
+    height: 50vh;
+    padding: 8px;
+    font-size: 0.875em;
 }
 
 #call-out {
     min-height: 70vh;
     background: url('https://s3.amazonaws.com/devmountain/www/img/group-proj-index.jpg');
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#chat-input {
+    height: 2em;
+    border: none;
+    border-radius: 8px;
 }
 
 a.video-link {
